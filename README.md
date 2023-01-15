@@ -12,7 +12,15 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 
 <kbd><img src="https://github.com/ArmineKhanan/Credit_risk/blob/main/Images/Logistic%20Regression%20model.png" width="800" /></kbd>
 
+The balanced accuracy score, ranging from 0 to 1, indicates the fairness of the classification model. 0.62 is a moderate result and urges to seek better solutions. The other measure worth our attention is the low recall rate for high-risk loans: 58%.
+
 ### Other resampling techniques
+To yield better results we tried out few more resampling solutions like:
+*Synthetic Minority Oversampling
+*Cluster Centroids Undersampling
+*Combination over- and under-sampling: SMOTEENN algorithm
+
+Though alternative resampling strategies increased neither the balanced accuracy score nor the recall rate for high-risk loans of the logistic regression model sufficiently. Ultemately we went for Ensemble Learning algorithms.
 
 ## Ensemble Learning 
 
