@@ -16,9 +16,9 @@ The balanced accuracy score, ranging from 0 to 1, indicates the fairness of the 
 
 ### Other resampling techniques
 To yield better results we tried out few more resampling solutions like:
-*Synthetic Minority Oversampling
-*Cluster Centroids Undersampling
-*Combination over- and under-sampling: SMOTEENN algorithm
+* Synthetic Minority Oversampling
+* Cluster Centroids Undersampling
+* Combination over- and under-sampling: SMOTEENN algorithm
 
 Though alternative resampling strategies increased neither the balanced accuracy score nor the recall rate for high-risk loans of the logistic regression model sufficiently. Ultemately we went for Ensemble Learning algorithms.
 
