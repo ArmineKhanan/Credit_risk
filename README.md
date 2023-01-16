@@ -1,13 +1,13 @@
 # Credit Card Risk
 ## Overview: Purpose Definition
-Within the challenge, our goal is to develop a statistical model which is capable to classify loans as safe or fraudulent. In other words, we are confronted with a binary classification problem. In the search for the most suitable model, we will first deploy the logistic regression model and, afterward, try out the ensemble learning approach for better results.
+Within the challenge, our goal is to develop a statistical model capable of classifying loans as safe or fraudulent. In other words, we are confronted with a binary classification problem. In the search for the most suitable model, we will first deploy the logistic regression model and, afterward, try out the ensemble learning approach for better results.
 
 ## Logistic regression
-### Data preperation
-After remove missing values from the initial dataset ([LoanStats_2019Q1.csv.zip](https://github.com/ArmineKhanan/Credit_risk/tree/main/Resources)), we are going to leverage a labeled set of 68817 records. The models will be trained on 75% of data and be tested on the rest 25%.
+### Data Preparation
+After removing missing values from the initial dataset  ([LoanStats_2019Q1.csv.zip](https://github.com/ArmineKhanan/Credit_risk/tree/main/Resources)), we plan to leverage a labeled set of 68817 records. The models will be trained on 75% of the data and tested on the rest 25%.
 
 ### Naive Random Oversampling
-Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. That's why we will implement resempling techniques first. The first resampling strategy implemented is naive random oversampling, the results of which are presented below: 
+Credit risk is an unbalanced classification problem, as good loans easily outnumber risky loans. That's why we will implement resampling techniques first. The first resampling strategy implemented is naive random oversampling, presented below: 
 
 <kbd><img src="https://github.com/ArmineKhanan/Credit_risk/blob/main/Images/Logistic%20Regression%20model.png" width="800" /></kbd>
 
