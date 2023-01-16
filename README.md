@@ -1,7 +1,6 @@
 # Credit Card Risk
 ## Overview: Purpose Definition
-Within the challenge, our goal is to develop a statistical model which is capable to classify loans as safe or fradulent. In other words we are confronted to binary classification problem.
-In the search for the most suitible model we will first deploy logistic regression model and, afterwards try out ensemble learning approach for the better results.
+Within the challenge, our goal is to develop a statistical model which is capable to classify loans as safe or fraudulent. In other words, we are confronted with a binary classification problem. In the search for the most suitable model, we will first deploy the logistic regression model and, afterward, try out the ensemble learning approach for better results.
 
 ## Logistic regression
 ### Data preperation
