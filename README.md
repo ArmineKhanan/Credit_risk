@@ -11,28 +11,26 @@ Credit risk is an unbalanced classification problem, as good loans easily outnum
 
 <kbd><img src="https://github.com/ArmineKhanan/Credit_risk/blob/main/Images/Logistic%20Regression%20model.png" width="800" /></kbd>
 
-The balanced accuracy score, ranging from 0 to 1, indicates the fairness of the classification model. 0.62 is a moderate result and urges to seek better solutions. The other measure worth our attention is the low recall rate for high-risk loans: 58%.
+The balanced accuracy score, ranging from 0 to 1, indicates the fairness of the classification model. 0.62 is a moderate result and urges us to seek better solutions. The other measure worth our attention to is the low recall rate for high-risk loans: 58%.
 
 ### Other resampling techniques
-To yield better results we tried out few more resampling solutions like:
+To yield better results, we tried out a few more resampling solutions:
 * Synthetic Minority Oversampling
 * Cluster Centroids Undersampling
 * Combination over- and under-sampling: SMOTEENN algorithm
 
-Nevertheless alternative resampling strategies increased neither the balanced accuracy score nor the recall rate for high-risk loans of the logistic regression model sufficiently. Ultemately we went for ensemble learning algorithms.
+Nevertheless, alternative resampling strategies increased neither the balanced accuracy score nor the recall rate for high-risk loans of the logistic regression model sufficiently. Ultimately we went for ensemble learning algorithms.
 
 ## Ensemble Learning 
-
 ### Balanced Random Forest Classifier
 
-With the hope of finding a more suiatable solution with the help of a large number of small decision trees, we ran random forest ensemble learning algorithm in the same dataset. This time we achived 0.78 for the balanced accuracy score and obtain the list of features by their prominance for prediction.
+With the hope of finding a more suitable solution with the help of a large number of small decision trees, we ran a random forest ensemble learning algorithm in the same dataset. This time we achieved 0.78 for the balanced accuracy score and obtained the list of features by their prominence for prediction.
 
 ### Easy Ensemble AdaBoost Classifier
-This last approach gave as a better result with 0.93 balanced accuracy score and 92% recall for high-risk loans.
+This last approach gave a better result with a 0.93 balanced accuracy score and 92% recall for high-risk loans.
 
 <kbd><img src="https://github.com/ArmineKhanan/Credit_risk/blob/main/Images/Ensemble%20AdaBoost%20Classifier.png" width="800" /></kbd>
 
 
 ## Summary
-
-Because of not balanced data we had implement several resampled techniques before running statistical models wich would classify the loans as 'good' and 'bad'. First we tried out logistic regression model for data resampled in defferent ways. After failing to achieve satisfying results, we turned to esemble learning algorithms. Easy Ensemble AdaBoost Classifier is proved to be the best out of all medels we implemented.
+Because of unbalanced data, we had to implement several resampled techniques before running statistical models which would classify the loans as 'good' or 'bad.'  First, we tried out the logistic regression model for data resampled in different ways. After failing to achieve satisfying results, we turned to ensemble learning algorithms. Easy Ensemble AdaBoost Classifier has been proven to be the best out of all models we implemented.
